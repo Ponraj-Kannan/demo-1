@@ -1,11 +1,9 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "npx slidev build --base /",
+  "outputDirectory": "dist/slidev",
   "framework": null,
   "rewrites": [
-    {
-      "source": "/api/run",
-      "destination": "http://136.111.214.182:3000/run"
-    }
+    { "source": "/api/oc-run", "destination": "/api/oc-run" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
