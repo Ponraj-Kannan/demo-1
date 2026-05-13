@@ -1,6 +1,6 @@
 {
   "buildCommand": "npx slidev build src/01-introduction-to-java.md --base /",
-  "outputDirectory": "dist",
+  "outputDirectory": "slides/dist",
   "framework": null,
   "rewrites": [
     { "source": "/api/oc-run", "destination": "/api/oc-run" },
