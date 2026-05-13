@@ -5,7 +5,7 @@
   "private": true,
   "description": "FACEPrep Interactive Java Training Slides",
   "engines": {
-    "node": "22.0"
+    "node": ">=22.0.0"
   },
   "scripts": {
     "dev": "node scripts/slidev-deck.mjs dev",
