@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/api/run",
+      "destination": "http://136.111.214.182:3000/run"
+    }
+  ]
+}
