@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx slidev build --base /",
+  "buildCommand": "npx slidev build src/01-introduction-to-java.md --base /",
   "outputDirectory": "dist/slidev",
   "framework": null,
   "rewrites": [
